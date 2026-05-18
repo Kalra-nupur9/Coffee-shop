@@ -11,7 +11,7 @@ export default function Marquee() {
         {[...Array(2)].map((_, index) => (
           <div
             key={index}
-            className="flex shrink-0 gap-12 px-6 text-2xl font-semibold text-zinc-700 dark:text-zinc-300 md:text-3xl"
+            className="flex shrink-0 gap-12 px-6 text-2xl  text-foreground-700 dark:text-background-300 md:text-3xl"
           >
             {coffeeFeatures.map((item) => (
               <BadgeItem

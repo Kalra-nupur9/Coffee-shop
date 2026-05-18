@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Marquee from "../components/ui/marquee"
+import Marquee from "../ui/marquee"
 
 export const metadata: Metadata = {
   title: "Premium Coffee Experience",
