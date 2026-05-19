@@ -3,6 +3,7 @@
 import { LucideIcon } from "lucide-react"
 import { StaticImageData } from "next/image"
 
+
 export interface Drink {
   id: number
   title: string
@@ -17,4 +18,11 @@ export interface StoryStat {
   icon: LucideIcon
   value: string
   label: string
+}
+
+
+export interface GalleryImage {
+  id: number
+  image: StaticImageData
+  alt: string
 }

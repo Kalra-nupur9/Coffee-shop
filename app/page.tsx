@@ -6,6 +6,7 @@ import { CiCoffeeCup } from "react-icons/ci";
 import SignatureDrinks from "./components/sections/signature-drinks";
 import StorySection from "./components/sections/story-section";
 import LocationSection from "./components/sections/location-section";
+import InstagramSection from "./components/sections/instagram-section";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <CurvedLoop/>
         <SignatureDrinks/>
         <StorySection/>
+        <InstagramSection/>
       <LocationSection/>
       <Footer />
     </>
