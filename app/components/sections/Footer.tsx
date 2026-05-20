@@ -141,7 +141,7 @@ export function Footer() {
             © {new Date().getFullYear()} Brew Haven. All rights reserved.
           </span>
 
-          <span>Crafted with warmth in Brooklyn.</span>
+          <span>Crafted by Nupur Kalra.</span>
         </div>
       </div>
     </footer>
