@@ -1,5 +1,4 @@
 
-
 interface IntroSectionProps {
   badge: string
   title: string

@@ -8,6 +8,7 @@ import StorySection from "./components/sections/story-section";
 import LocationSection from "./components/sections/location-section";
 import InstagramSection from "./components/sections/instagram-section";
 import NewsletterSection from "./components/sections/newsletter-section";
+import IntroSection from "./components/ui/intro-section";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       <main>
         <HeroSection />
+        
         <CurvedLoop />
         <SignatureDrinks />
         <StorySection />
@@ -23,6 +25,7 @@ export default function Home() {
         <LocationSection />
         <NewsletterSection />
       </main>
+
 
       <Footer />
     </>
