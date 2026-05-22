@@ -26,3 +26,13 @@ export interface GalleryImage {
   image: StaticImageData
   alt: string
 }
+export interface MenuItem {
+  id: number
+  title: string
+  description: string
+  price: number
+  category: string
+  image?: StaticImageData
+  popular?: boolean
+  vegan?: boolean
+}
